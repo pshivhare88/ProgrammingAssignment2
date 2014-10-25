@@ -2,8 +2,8 @@
 
 Read the functions using any one of the following two ways
 
-* Save the code in your working directory and enter source("cachematrix.R")
-* Source the code from my Github repository by entering source("https://github.com/pshivhare88/ProgrammingAssignment2/cachematrix.R") 
+1. Save the code in your working directory and enter source("cachematrix.R")
+2. Source the code from my Github repository by entering source("https://github.com/pshivhare88/ProgrammingAssignment2/cachematrix.R") 
 
 ### Example: Executing makeCacheMatrix function
 
@@ -12,8 +12,8 @@ using only a n by n invertible matrix in the examples.
 
 You can store a matrix in makeCacheMatrix function in two ways
 
-* During the calling of the makeCacheMatrix function
-* Later using the setmatrix function
+1. During the calling of the makeCacheMatrix function
+2. Later using the setmatrix function
 
 Store the list of functions returned by makeCacheMatrix function in object z
 
@@ -21,12 +21,15 @@ z <- makeCacheMatrix( matrix( c(1,2,3,4), ncol=2, nrow=2) )
 
 The summary of object Z should look like this:
 
+```
 > summary(z)
 >          Length Class  Mode    
 > setmatrix 1      -none- function
 > getmatrix 1      -none- function
 > setinv    1      -none- function
 > getinv    1      -none- function
+
+```
 
 To see the matrix stored in makeCacheMatrix use getmatrix element of z
 
